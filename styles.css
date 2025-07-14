@@ -1,0 +1,60 @@
+/* styles.css */
+/* Main content styling */
+.stApp {
+    background-color: #f5f7fa;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Input fields */
+.stTextInput>div>div>input {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Buttons */
+.stButton>button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Dataframes */
+.stDataFrame {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Tabs */
+.stTabs>div>div>div>div {
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Progress bars */
+.stProgress>div>div>div>div {
+    background-color: #4a8cff;
+}
+
+/* Sidebar */
+.stSidebar {
+    background-color: white;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+/* Expanders */
+.stExpander {
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
